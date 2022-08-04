@@ -30,7 +30,7 @@ else:
 
 
 
-answer = input("what does VM means? ")
+answer = input ("what does VM means? ")
 if answer == "Virtual machine":
     print('correct !')
     score += 1
