@@ -12,14 +12,12 @@ if answer == "Central processing unit":
 else:
     print("incorrect!")
 
-
 answer = input("what does GCP means? ")
 if answer == "Google cloud platform":
     print('correct !')
     score += 1
 else:
     print("incorrect!")
-
 
 answer = input("what does API means? ")
 if answer == "Application  programming interface":
@@ -28,16 +26,12 @@ if answer == "Application  programming interface":
 else:
     print("incorrect!")
 
-
-
-answer = input ("what does VM means? ")
+answer = input("what does VM means? ")
 if answer == "Virtual machine":
     print('correct !')
     score += 1
 else:
     print("incorrect!")
-
-
 
 answer = input("what does VPC means? ")
 if answer == "Virtual private cloud":
@@ -48,6 +42,3 @@ else:
 
 print(" You got" + str(score) + " questions correct! ")
 print(" You got" + str((score / 5) * 100) + "%.")
-
-
-
